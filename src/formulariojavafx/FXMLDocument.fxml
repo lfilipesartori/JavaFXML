@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="541.0" prefWidth="444.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="olamundojavafx.FXMLDocumentController">
+    <children>
+      <TextFlow layoutX="34.0" layoutY="151.0" prefHeight="27.0" prefWidth="115.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="125.0" text="Nome completo">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </TextFlow>
+      <TextFlow layoutX="26.0" layoutY="285.0" prefHeight="27.0" prefWidth="115.0" />
+      <SplitPane dividerPositions="0.5" layoutY="-2.0" orientation="VERTICAL" prefHeight="17.0" prefWidth="446.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+        </items>
+      </SplitPane>
+      <CheckBox fx:id="checkBox" layoutX="191.0" layoutY="404.0" mnemonicParsing="false" text="Não sou um robo" />
+      <Button fx:id="btnClick" defaultButton="true" layoutX="191.0" layoutY="444.0" mnemonicParsing="false" onAction="#clicouBotao" prefHeight="27.0" prefWidth="91.0" text="Registrar" />
+      <Label fx:id="lblFormulario" layoutX="190.0" layoutY="64.0" text="Formulário" textAlignment="CENTER" textFill="#1a1a1a">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="225.0" prefHeight="17.0" prefWidth="125.0" text="Confirme o E-mail">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="189.0" prefHeight="17.0" prefWidth="125.0" text="E-mail">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="261.0" prefHeight="20.0" prefWidth="115.0" text="Digite uma senha">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="302.0" prefHeight="17.0" prefWidth="125.0" text="Confirme sua senha">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Slider layoutX="425.0" layoutY="19.0" orientation="VERTICAL" prefHeight="519.0" prefWidth="14.0" />
+      <Slider layoutX="1.0" layoutY="520.0" prefHeight="14.0" prefWidth="420.0" />
+      <TextField layoutX="149.0" layoutY="152.0" prefHeight="25.0" prefWidth="196.0" />
+      <TextField layoutX="149.0" layoutY="187.0" prefHeight="25.0" prefWidth="196.0" />
+      <TextField layoutX="149.0" layoutY="223.0" prefHeight="25.0" prefWidth="196.0" />
+      <PasswordField layoutX="149.0" layoutY="259.0" prefHeight="25.0" prefWidth="196.0" />
+      <PasswordField layoutX="149.0" layoutY="300.0" prefHeight="25.0" prefWidth="196.0" />
+    </children>
+</AnchorPane>
